@@ -1,0 +1,11 @@
+{
+  "DB_NAME": "wp.vnetby.net",
+  "DB_USER": "vadzim",
+  "DB_PASS": "arrogaminca",
+  "DB_HOST": "localhost",
+  "DB_CHARSET": "utf8mb4",
+
+  "SRC": "wp-content/themes/vnet-wp",
+
+  "WP_DEBUG": true
+}
