@@ -1,0 +1,11 @@
+{
+  "post_types": {
+    "about_company": [],
+    "the_blocks": [],
+    "articles": [],
+    "black_list": []
+  },
+  "taxonomies": {
+    "art_cat": []
+  }
+}

@@ -1,0 +1,499 @@
+[
+    {
+        "key": "group_5dee69fc472aa",
+        "title": "Страница - макет",
+        "fields": [
+            {
+                "key": "field_5dee6a06af3b6",
+                "label": "Макет",
+                "name": "page_block_template",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "acfe_permissions": "",
+                "acfe_flexible_stylised_button": 0,
+                "acfe_flexible_hide_empty_message": 0,
+                "acfe_flexible_empty_message": "",
+                "acfe_flexible_layouts_thumbnails": 1,
+                "acfe_flexible_layouts_templates": 0,
+                "acfe_flexible_layouts_placeholder": 0,
+                "acfe_flexible_close_button": 0,
+                "acfe_flexible_title_edition": 1,
+                "acfe_flexible_copy_paste": 0,
+                "acfe_flexible_modal_edition": 0,
+                "acfe_flexible_modal": {
+                    "acfe_flexible_modal_enabled": "1",
+                    "acfe_flexible_modal_title": "",
+                    "acfe_flexible_modal_col": "4",
+                    "acfe_flexible_modal_categories": "0"
+                },
+                "acfe_flexible_layouts_state": "",
+                "layouts": {
+                    "layout_5dee6a0d85d9f": {
+                        "key": "layout_5dee6a0d85d9f",
+                        "name": "template_block",
+                        "label": "Блок",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5e24148f5b57d",
+                                "label": "Внутренние отступы",
+                                "name": "padding",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "layout": "block",
+                                "acfe_seemless_style": 0,
+                                "acfe_group_modal": 0,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5e24148f5b57e",
+                                        "label": "",
+                                        "name": "top",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "md"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_5e24148f5b581",
+                                        "label": "",
+                                        "name": "bottom",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "md"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5e2414965b582",
+                                "label": "Внешние отступы",
+                                "name": "margin",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "layout": "block",
+                                "acfe_seemless_style": 0,
+                                "acfe_group_modal": 0,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5e2414965b583",
+                                        "label": "",
+                                        "name": "top",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "none"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_5e2414965b586",
+                                        "label": "",
+                                        "name": "bottom",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "none"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5dee6a82af3b7",
+                                "label": "Блок",
+                                "name": "block",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "choices": [],
+                                "default_value": [],
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "return_format": "value",
+                                "ajax": 0,
+                                "placeholder": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": "",
+                        "acfe_flexible_thumbnail": ""
+                    },
+                    "layout_5dee6aaaaf3b8": {
+                        "key": "layout_5dee6aaaaf3b8",
+                        "name": "template_example",
+                        "label": "Макет - пример",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5dee6ac2af3ba",
+                                "label": "Показать",
+                                "name": "display",
+                                "type": "true_false",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "10",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "message": "",
+                                "default_value": 1,
+                                "ui": 0,
+                                "ui_on_text": "",
+                                "ui_off_text": ""
+                            },
+                            {
+                                "key": "field_5e24127b34aec",
+                                "label": "Внутренние отступы",
+                                "name": "padding",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "layout": "block",
+                                "acfe_seemless_style": 0,
+                                "acfe_group_modal": 0,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5e24129334aed",
+                                        "label": "",
+                                        "name": "top",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "md"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_5e2412f734af0",
+                                        "label": "",
+                                        "name": "bottom",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "md"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5e24131d34af1",
+                                "label": "Внешние отступы",
+                                "name": "margin",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "20",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": "",
+                                "layout": "block",
+                                "acfe_seemless_style": 0,
+                                "acfe_group_modal": 0,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5e24131d34af2",
+                                        "label": "",
+                                        "name": "top",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "none"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_5e24131d34af5",
+                                        "label": "",
+                                        "name": "bottom",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "acfe_permissions": "",
+                                        "choices": {
+                                            "none": "0",
+                                            "xs": "1",
+                                            "sm": "2",
+                                            "md": "3",
+                                            "lg": "4",
+                                            "xl": "5",
+                                            "xxl": "6"
+                                        },
+                                        "default_value": [
+                                            "none"
+                                        ],
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 0,
+                                        "return_format": "value",
+                                        "ajax": 0,
+                                        "placeholder": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5dee6ad9af3bb",
+                                "label": "Макет",
+                                "name": "block_template",
+                                "type": "acfe_dynamic_message",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_permissions": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": "",
+                        "acfe_flexible_thumbnail": ""
+                    }
+                },
+                "button_label": "Добавить",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "acfe_display_title": "",
+        "acfe_autosync": "",
+        "acfe_permissions": "",
+        "acfe_form": 0,
+        "acfe_meta": "",
+        "acfe_note": ""
+    }
+]

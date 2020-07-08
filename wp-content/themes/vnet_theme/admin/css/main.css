@@ -1,0 +1,33 @@
+li.active a {
+  color: #fff !important;
+  background-color: #0073aa !important;
+  background: #0073aa !important;
+}
+li.active div.wp-menu-image:before {
+  color: #fff !important;
+}
+
+.template-link-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.template-link-preview img {
+  display: block;
+  width: 250px;
+  height: auto;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.small-gallery .acf-gallery {
+  height: 200px !important;
+}
+
+tr.system-tag-page {
+  opacity: 0.4;
+}
+
+.acf-flexible-content .layout.-modal {
+  max-width: 100% !important;
+}

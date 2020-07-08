@@ -1,0 +1,122 @@
+[
+  {
+    "key": "group_5dee69fc472aa",
+    "title": "Страница - макет",
+    "fields": [
+      {
+        "key": "field_5dee6a06af3b6",
+        "label": "Макет",
+        "name": "page_block_template",
+        "type": "flexible_content",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "layouts": {
+          "layout_5dee6a0d85d9f": {
+            "key": "layout_5dee6a0d85d9f",
+            "name": "template_block",
+            "label": "Блок",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5dee6a82af3b7",
+                "label": "Блок",
+                "name": "block",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "choices": [],
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+              }
+            ],
+            "min": "",
+            "max": ""
+          },
+          "layout_5dee6aaaaf3b8": {
+            "key": "layout_5dee6aaaaf3b8",
+            "name": "example",
+            "label": "Пример",
+            "display": "block",
+            "sub_fields": [
+              {
+                "key": "field_5dee6ac2af3ba",
+                "label": "Показать",
+                "name": "display",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "50",
+                  "class": "",
+                  "id": ""
+                },
+                "message": "",
+                "default_value": 1,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+              },
+              {
+                "key": "field_5dee6ad9af3bb",
+                "label": "Макет",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                  "width": "",
+                  "class": "",
+                  "id": ""
+                },
+                "message": "<a data-fancybox class=\"template-link-preview\" href=\"/wp-content/themes/vnet_theme/img/template-blocks/title_text_img.PNG\" title=\"макет\" target=\"_blank\"><img src=\"/wp-content/themes/vnet_theme/img/template-blocks/title_text_img.PNG\"></a>",
+                "new_lines": "wpautop",
+                "esc_html": 0
+              }
+            ],
+            "min": "",
+            "max": ""
+          }
+        },
+        "button_label": "Добавить",
+        "min": "",
+        "max": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "post"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+  }
+]

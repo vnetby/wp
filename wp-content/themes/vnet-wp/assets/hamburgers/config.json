@@ -1,0 +1,6 @@
+{
+  "name"        : "hamburger animate",
+  "description" : "",
+  "site"        : "https://jonsuh.com/hamburgers/",
+  "head"        : ["hamburgers.min.css"]
+}

@@ -1,0 +1,106 @@
+.js-helper {
+  -webkit-animation-duration: 0s;
+          animation-duration: 0s;
+  position: fixed;
+  left: -100%;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}
+@-webkit-keyframes jshelper-orientation-potrait {
+  0% {
+    z-index: 10;
+  }
+  100% {
+    z-index: 10;
+  }
+}
+@keyframes jshelper-orientation-potrait {
+  0% {
+    z-index: 10;
+  }
+  100% {
+    z-index: 10;
+  }
+}
+@-webkit-keyframes jshelper-orientation-landscape {
+  0% {
+    z-index: 20;
+  }
+  100% {
+    z-index: 20;
+  }
+}
+@keyframes jshelper-orientation-landscape {
+  0% {
+    z-index: 20;
+  }
+  100% {
+    z-index: 20;
+  }
+}
+@-webkit-keyframes jshelper-touch {
+  0% {
+    z-index: 10;
+  }
+  100% {
+    z-index: 10;
+  }
+}
+@keyframes jshelper-touch {
+  0% {
+    z-index: 10;
+  }
+  100% {
+    z-index: 10;
+  }
+}
+@-webkit-keyframes jshelper-notouch {
+  0% {
+    z-index: 20;
+  }
+  100% {
+    z-index: 20;
+  }
+}
+@keyframes jshelper-notouch {
+  0% {
+    z-index: 20;
+  }
+  100% {
+    z-index: 20;
+  }
+}
+/*==============================================================
+*   										DETECT ORIENTATION
+=============================================================== */
+@media (orientation: portrait) {
+  .js-helper-orientation {
+    -webkit-animation-name: jshelper-orientation-potrait;
+            animation-name: jshelper-orientation-potrait;
+  }
+}
+@media (orientation: landscape) {
+  .js-helper-orientation {
+    -webkit-animation-name: jshelper-orientation-landscape;
+            animation-name: jshelper-orientation-landscape;
+  }
+}
+/*==============================================================
+*												   DETECT TOUCH
+=============================================================== */
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  .js-helper-touch {
+    -webkit-animation-name: jshelper-touch;
+            animation-name: jshelper-touch;
+  }
+}
+@media (hover: hover) and (pointer: fine) {
+  .js-helper-touch {
+    -webkit-animation-name: jshelper-notouch;
+            animation-name: jshelper-notouch;
+  }
+}
+
+/*# sourceMappingURL=head.min.css.map*/
